@@ -1,4 +1,6 @@
-//  Primitive
+// basically data types are divided into mainly into two types based on how thay store in memory and how we access them
+
+//  Primitive (call by value)
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -32,6 +34,6 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
