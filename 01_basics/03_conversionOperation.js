@@ -1,3 +1,4 @@
+// *********************** Convert to number ***********************
 let score = "hitesh"
 
 //console.log(typeof score);
@@ -7,11 +8,13 @@ let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
 //console.log(valueInNumber);
 
-
 // "33" => 33
 // "33abc" => NaN
 //  true => 1; false => 0
+//  null => 0
+//  undefined => NaN
 
+// *********************** Convert to boolean ***********************
 let isLoggedIn = "hitesh"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
@@ -19,13 +22,21 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 // 1 => true; 0 => false
 // "" => false
+// null => false
+// undefined => false
 // "hitesh" => true
 
+// *********************** Convert to string ***********************
 let someNumber = 33
 
 let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
+
+// 33 => "33"
+// true => "true"; false => "false"
+// null => "null"
+// undefined => "undefined"
 
 // *********************** Operations ***********************
 
